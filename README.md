@@ -6,7 +6,7 @@ In this GitHub repository, you will find my CMS-style Tech Blog application, whi
 
 ## Installation
 
-This application does not need to be installed, as it can be viewed live on Heroku at the following URL. [https://ben-pauley-tech-blog.herokuapp.com/dashboard](https://ben-pauley-tech-blog.herokuapp.com/dashboard)
+This application does not need to be installed, as it can be viewed live on Heroku at the following URL. [https://ben-pauley-tech-blog.herokuapp.com](https://ben-pauley-tech-blog.herokuapp.com)
 
 ## Screenshots of Deployed Application
 
