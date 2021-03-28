@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.main-body {
+  min-height: 100vh;
+}
+
+.post-list {
+  margin: 0;
+  padding: 0;
+}
+
+textarea,
+input {
+  border-radius: 5px;
+  padding: 0.5%;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+textarea {
+  max-width: 60%;
+  min-height: 100px;
+}
+
+form > div {
+  margin-bottom: 2%;
+}
+
+form label {
+  display: block;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1%;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+main {
+  flex: 1;
+  padding: 2% 4%;
+}
+
+.post {
+  line-height: 150%;
+  margin-bottom: 2%;
+}
+
+.post .title span {
+  font-size: 90%;
+  font-style: italic;
+}
+
+.comment-form {
+  margin-bottom: 5%;
+}
+
+.comment {
+  margin-bottom: 1%;
+  padding: 1%;
+  width: 100vw;
+}
+
+.comment .meta {
+  font-size: 90%;
+  margin-bottom: 0.5%;
+  opacity: 0.6;
+}
+
+#comment-body {
+  margin: 5px;
+  opacity: 80%;
+  padding: 5px;
+}
+
+.new-post-form input {
+  width: 300px;
+}
+
+.edit-post-form {
+  margin-bottom: 5%;
+}
+
+.post {
+  justify-content: center;
+  margin: auto;
+  opacity: 80%;
+}
+
+#edit-post-btn {
+  color: white;
+  padding: 5px;
+}
